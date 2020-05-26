@@ -1,0 +1,1239 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d3e3b219ab3e450595086dd23e7f6fe0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_d3e3b219ab3e450595086dd23e7f6fe0" ></div>
+        
+</body>
+<script>    
+    
+            var map_d3e3b219ab3e450595086dd23e7f6fe0 = L.map(
+                "map_d3e3b219ab3e450595086dd23e7f6fe0",
+                {
+                    center: [51.538739, 46.016849],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_569886b444f44aabafa80b3cef8a866e = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 9, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_d3e3b219ab3e450595086dd23e7f6fe0);
+        
+    
+            var feature_group_1fd6d78609c64263a8e44ba95caf611b = L.featureGroup(
+                {}
+            ).addTo(map_d3e3b219ab3e450595086dd23e7f6fe0);
+        
+    
+            var marker_8230d421e1c44c628354b395a3173b20 = L.marker(
+                [51.5320553, 46.016206],
+                {}
+            ).addTo(feature_group_1fd6d78609c64263a8e44ba95caf611b);
+        
+    
+            var icon_241e8bc755fc49a8af91e9907c13d4b4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "balance-scale", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_8230d421e1c44c628354b395a3173b20.setIcon(icon_241e8bc755fc49a8af91e9907c13d4b4);
+        
+    
+        var popup_b4eb3bcb1c8d42d9af2c75bc65f728bf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aab41ad9a6274f6bac2ff258b5dae168 = $(`<div id="html_aab41ad9a6274f6bac2ff258b5dae168" style="width: 100.0%; height: 100.0%;">Дом Быта</div>`)[0];
+            popup_b4eb3bcb1c8d42d9af2c75bc65f728bf.setContent(html_aab41ad9a6274f6bac2ff258b5dae168);
+        
+
+        marker_8230d421e1c44c628354b395a3173b20.bindPopup(popup_b4eb3bcb1c8d42d9af2c75bc65f728bf)
+        ;
+
+        
+    
+    
+            var marker_1dc97d91512d4801ac178bf915eafe14 = L.marker(
+                [51.5456272, 46.0142937],
+                {}
+            ).addTo(feature_group_1fd6d78609c64263a8e44ba95caf611b);
+        
+    
+            var icon_47262d6c666145d4a4cd903986f7bd5f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "balance-scale", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_1dc97d91512d4801ac178bf915eafe14.setIcon(icon_47262d6c666145d4a4cd903986f7bd5f);
+        
+    
+        var popup_df1985b5a44f4f5e9de0468916d38a5f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_291dcea3241e426e83dadd11011e61c5 = $(`<div id="html_291dcea3241e426e83dadd11011e61c5" style="width: 100.0%; height: 100.0%;">Сенной</div>`)[0];
+            popup_df1985b5a44f4f5e9de0468916d38a5f.setContent(html_291dcea3241e426e83dadd11011e61c5);
+        
+
+        marker_1dc97d91512d4801ac178bf915eafe14.bindPopup(popup_df1985b5a44f4f5e9de0468916d38a5f)
+        ;
+
+        
+    
+    
+            var marker_f909380fd7aa42f08cd1a6af081008a6 = L.marker(
+                [51.580355, 45.967879],
+                {}
+            ).addTo(feature_group_1fd6d78609c64263a8e44ba95caf611b);
+        
+    
+            var icon_f0d4151f97024174825de70eaef402f5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "balance-scale", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_f909380fd7aa42f08cd1a6af081008a6.setIcon(icon_f0d4151f97024174825de70eaef402f5);
+        
+    
+        var popup_d0fee90131b14ef39d8b923d729450aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c5836a5173034b8ca53d8fbdc941c0aa = $(`<div id="html_c5836a5173034b8ca53d8fbdc941c0aa" style="width: 100.0%; height: 100.0%;">3-я Дачная</div>`)[0];
+            popup_d0fee90131b14ef39d8b923d729450aa.setContent(html_c5836a5173034b8ca53d8fbdc941c0aa);
+        
+
+        marker_f909380fd7aa42f08cd1a6af081008a6.bindPopup(popup_d0fee90131b14ef39d8b923d729450aa)
+        ;
+
+        
+    
+    
+            var marker_6a06758128af49089a7eb499a8ee67ec = L.marker(
+                [51.5309619, 45.9843574],
+                {}
+            ).addTo(feature_group_1fd6d78609c64263a8e44ba95caf611b);
+        
+    
+            var icon_06e77b5b2cc84b0284c4cbded739ec4e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "balance-scale", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_6a06758128af49089a7eb499a8ee67ec.setIcon(icon_06e77b5b2cc84b0284c4cbded739ec4e);
+        
+    
+        var popup_26f4c2c084db46329551d49840a505e6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d902ec2c942f464bb08b43208c26f196 = $(`<div id="html_d902ec2c942f464bb08b43208c26f196" style="width: 100.0%; height: 100.0%;">2-я Садовая</div>`)[0];
+            popup_26f4c2c084db46329551d49840a505e6.setContent(html_d902ec2c942f464bb08b43208c26f196);
+        
+
+        marker_6a06758128af49089a7eb499a8ee67ec.bindPopup(popup_26f4c2c084db46329551d49840a505e6)
+        ;
+
+        
+    
+    
+            var marker_d5495fa6dd644b01995832b0c21fc295 = L.marker(
+                [51.495404, 45.929815],
+                {}
+            ).addTo(feature_group_1fd6d78609c64263a8e44ba95caf611b);
+        
+    
+            var icon_01fa90c58f334e5185bdddea69083fb7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "balance-scale", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_d5495fa6dd644b01995832b0c21fc295.setIcon(icon_01fa90c58f334e5185bdddea69083fb7);
+        
+    
+        var popup_b7e1665e68a84601bf6d79ec974ab56d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f7717e1362ca4c3ba795fd0ea462f05c = $(`<div id="html_f7717e1362ca4c3ba795fd0ea462f05c" style="width: 100.0%; height: 100.0%;">Заводской</div>`)[0];
+            popup_b7e1665e68a84601bf6d79ec974ab56d.setContent(html_f7717e1362ca4c3ba795fd0ea462f05c);
+        
+
+        marker_d5495fa6dd644b01995832b0c21fc295.bindPopup(popup_b7e1665e68a84601bf6d79ec974ab56d)
+        ;
+
+        
+    
+    
+            var marker_7a4ababd79834f9ea06cc44ac684347c = L.marker(
+                [51.6089717, 46.0012191],
+                {}
+            ).addTo(feature_group_1fd6d78609c64263a8e44ba95caf611b);
+        
+    
+            var icon_7a82d9320f9048ce850982dcf8b125ba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "balance-scale", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_7a4ababd79834f9ea06cc44ac684347c.setIcon(icon_7a82d9320f9048ce850982dcf8b125ba);
+        
+    
+        var popup_e809cc850eae47429a2f9f7214ecd467 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f2b7497009304f70a21d8d719819a6cf = $(`<div id="html_f2b7497009304f70a21d8d719819a6cf" style="width: 100.0%; height: 100.0%;">Солнечный</div>`)[0];
+            popup_e809cc850eae47429a2f9f7214ecd467.setContent(html_f2b7497009304f70a21d8d719819a6cf);
+        
+
+        marker_7a4ababd79834f9ea06cc44ac684347c.bindPopup(popup_e809cc850eae47429a2f9f7214ecd467)
+        ;
+
+        
+    
+    
+            var marker_57319b7f24214e75892e002cafc2002b = L.marker(
+                [51.5287818, 46.05186330000001],
+                {}
+            ).addTo(feature_group_1fd6d78609c64263a8e44ba95caf611b);
+        
+    
+            var icon_c3780530e288478b862e99b5348f372b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "balance-scale", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_57319b7f24214e75892e002cafc2002b.setIcon(icon_c3780530e288478b862e99b5348f372b);
+        
+    
+        var popup_eacab7fc97e24e82bb0834c348b73172 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_03531070b1e64c468753e0306b19c1b0 = $(`<div id="html_03531070b1e64c468753e0306b19c1b0" style="width: 100.0%; height: 100.0%;">Пешка</div>`)[0];
+            popup_eacab7fc97e24e82bb0834c348b73172.setContent(html_03531070b1e64c468753e0306b19c1b0);
+        
+
+        marker_57319b7f24214e75892e002cafc2002b.bindPopup(popup_eacab7fc97e24e82bb0834c348b73172)
+        ;
+
+        
+    
+    
+            var marker_9e97ecd0636b41159cbb3ed0cd9165a4 = L.marker(
+                [51.606832, 45.975684],
+                {}
+            ).addTo(feature_group_1fd6d78609c64263a8e44ba95caf611b);
+        
+    
+            var icon_3859aeeeeb994e3392d22afc2915da35 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "balance-scale", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_9e97ecd0636b41159cbb3ed0cd9165a4.setIcon(icon_3859aeeeeb994e3392d22afc2915da35);
+        
+    
+        var popup_aa0a74e1e77640cf8db1f53aa2335a8a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_00becd2c1ad64ea189c9b20b32ef0d7d = $(`<div id="html_00becd2c1ad64ea189c9b20b32ef0d7d" style="width: 100.0%; height: 100.0%;">6-й Квартал</div>`)[0];
+            popup_aa0a74e1e77640cf8db1f53aa2335a8a.setContent(html_00becd2c1ad64ea189c9b20b32ef0d7d);
+        
+
+        marker_9e97ecd0636b41159cbb3ed0cd9165a4.bindPopup(popup_aa0a74e1e77640cf8db1f53aa2335a8a)
+        ;
+
+        
+    
+    
+            var marker_5e4cfef7fd13486b9da354d0e342d3aa = L.marker(
+                [51.4719778, 45.9163956],
+                {}
+            ).addTo(feature_group_1fd6d78609c64263a8e44ba95caf611b);
+        
+    
+            var icon_be00d848bffa4f6aae65851d3b3dfedb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "balance-scale", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_5e4cfef7fd13486b9da354d0e342d3aa.setIcon(icon_be00d848bffa4f6aae65851d3b3dfedb);
+        
+    
+        var popup_611b1b1e888e4affb96d32a225647503 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8cb493abfeb44a3bb0510130b6d0945d = $(`<div id="html_8cb493abfeb44a3bb0510130b6d0945d" style="width: 100.0%; height: 100.0%;">Азина</div>`)[0];
+            popup_611b1b1e888e4affb96d32a225647503.setContent(html_8cb493abfeb44a3bb0510130b6d0945d);
+        
+
+        marker_5e4cfef7fd13486b9da354d0e342d3aa.bindPopup(popup_611b1b1e888e4affb96d32a225647503)
+        ;
+
+        
+    
+    
+            var marker_3303834718034797a05310c41514f8d1 = L.marker(
+                [51.532428, 46.021821],
+                {}
+            ).addTo(feature_group_1fd6d78609c64263a8e44ba95caf611b);
+        
+    
+            var icon_87364beed3a34ced9563ab377a11fc17 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "balance-scale", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_3303834718034797a05310c41514f8d1.setIcon(icon_87364beed3a34ced9563ab377a11fc17);
+        
+    
+        var popup_0e99cb8d5efe4f729dc729ca4fd885dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1587f8ce455e4c29936247df6223c447 = $(`<div id="html_1587f8ce455e4c29936247df6223c447" style="width: 100.0%; height: 100.0%;">Центральный</div>`)[0];
+            popup_0e99cb8d5efe4f729dc729ca4fd885dd.setContent(html_1587f8ce455e4c29936247df6223c447);
+        
+
+        marker_3303834718034797a05310c41514f8d1.bindPopup(popup_0e99cb8d5efe4f729dc729ca4fd885dd)
+        ;
+
+        
+    
+    
+            var marker_84220ea861184bfd88c5fbd6b863acc8 = L.marker(
+                [51.509755, 45.95494799999999],
+                {}
+            ).addTo(feature_group_1fd6d78609c64263a8e44ba95caf611b);
+        
+    
+            var icon_c6182762cd814747af960e5fe1798a4d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "balance-scale", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_84220ea861184bfd88c5fbd6b863acc8.setIcon(icon_c6182762cd814747af960e5fe1798a4d);
+        
+    
+        var popup_4caa729165ce432ab138e55dfc647310 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fc21828bffb04b198cf2aa508486a6a9 = $(`<div id="html_fc21828bffb04b198cf2aa508486a6a9" style="width: 100.0%; height: 100.0%;">Тоннель</div>`)[0];
+            popup_4caa729165ce432ab138e55dfc647310.setContent(html_fc21828bffb04b198cf2aa508486a6a9);
+        
+
+        marker_84220ea861184bfd88c5fbd6b863acc8.bindPopup(popup_4caa729165ce432ab138e55dfc647310)
+        ;
+
+        
+    
+    
+            var marker_7617dbb4dbeb435a9d81c30758506176 = L.marker(
+                [51.4799614, 46.1281194],
+                {}
+            ).addTo(feature_group_1fd6d78609c64263a8e44ba95caf611b);
+        
+    
+            var icon_3eeceebc83bb40508e4b53f012ffb6a3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "balance-scale", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_7617dbb4dbeb435a9d81c30758506176.setIcon(icon_3eeceebc83bb40508e4b53f012ffb6a3);
+        
+    
+        var popup_05cf89feda8d430c96354c8a20d3c529 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_af6a98065383453fba9d8940b9bd453b = $(`<div id="html_af6a98065383453fba9d8940b9bd453b" style="width: 100.0%; height: 100.0%;">Энгельс</div>`)[0];
+            popup_05cf89feda8d430c96354c8a20d3c529.setContent(html_af6a98065383453fba9d8940b9bd453b);
+        
+
+        marker_7617dbb4dbeb435a9d81c30758506176.bindPopup(popup_05cf89feda8d430c96354c8a20d3c529)
+        ;
+
+        
+    
+    
+            var marker_8304324d46284c11beb7bd30f6b0314c = L.marker(
+                [51.508662, 45.939766],
+                {}
+            ).addTo(feature_group_1fd6d78609c64263a8e44ba95caf611b);
+        
+    
+            var icon_d3339ef1e6ce40c788d47e94afc95080 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "balance-scale", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_8304324d46284c11beb7bd30f6b0314c.setIcon(icon_d3339ef1e6ce40c788d47e94afc95080);
+        
+    
+        var popup_55d751101fde4f5fa69a140b57957acf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_14d8cc4f6549471c8f687e7dbbc71a45 = $(`<div id="html_14d8cc4f6549471c8f687e7dbbc71a45" style="width: 100.0%; height: 100.0%;">Огородная</div>`)[0];
+            popup_55d751101fde4f5fa69a140b57957acf.setContent(html_14d8cc4f6549471c8f687e7dbbc71a45);
+        
+
+        marker_8304324d46284c11beb7bd30f6b0314c.bindPopup(popup_55d751101fde4f5fa69a140b57957acf)
+        ;
+
+        
+    
+    
+            var marker_04f5a0679d1749139517d1ea9122d1ff = L.marker(
+                [51.477414, 45.893874],
+                {}
+            ).addTo(feature_group_1fd6d78609c64263a8e44ba95caf611b);
+        
+    
+            var icon_7ca819c6c5774e478cc7fcd6a81fa6af = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "balance-scale", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_04f5a0679d1749139517d1ea9122d1ff.setIcon(icon_7ca819c6c5774e478cc7fcd6a81fa6af);
+        
+    
+        var popup_6f28602bb054410e9b2aee26e2640c4b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_391ebfe93e2e44009d3e4a5579e66be3 = $(`<div id="html_391ebfe93e2e44009d3e4a5579e66be3" style="width: 100.0%; height: 100.0%;">Комсомольский</div>`)[0];
+            popup_6f28602bb054410e9b2aee26e2640c4b.setContent(html_391ebfe93e2e44009d3e4a5579e66be3);
+        
+
+        marker_04f5a0679d1749139517d1ea9122d1ff.bindPopup(popup_6f28602bb054410e9b2aee26e2640c4b)
+        ;
+
+        
+    
+    
+            var feature_group_ebfc02f3b1254bce8199db544d557c56 = L.featureGroup(
+                {}
+            ).addTo(map_d3e3b219ab3e450595086dd23e7f6fe0);
+        
+    
+            var marker_7ca1ba556dde4a5c862ca2e5e636f4e5 = L.marker(
+                [51.494299, 45.920171],
+                {}
+            ).addTo(feature_group_ebfc02f3b1254bce8199db544d557c56);
+        
+    
+            var icon_c947b7468ecd4a308588c838b1cf8749 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7ca1ba556dde4a5c862ca2e5e636f4e5.setIcon(icon_c947b7468ecd4a308588c838b1cf8749);
+        
+    
+        var popup_97672adc7ac94348b793ea7edd00d20f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b2abe445915c406d8c0643950e1939bc = $(`<div id="html_b2abe445915c406d8c0643950e1939bc" style="width: 100.0%; height: 100.0%;">г.Саратов, ш.Ново-Астраханское, д.80 Время работы:  9:00 - 20:00</div>`)[0];
+            popup_97672adc7ac94348b793ea7edd00d20f.setContent(html_b2abe445915c406d8c0643950e1939bc);
+        
+
+        marker_7ca1ba556dde4a5c862ca2e5e636f4e5.bindPopup(popup_97672adc7ac94348b793ea7edd00d20f)
+        ;
+
+        
+    
+    
+            var marker_dec1151f8e90450e9a2beede66dce591 = L.marker(
+                [51.570978, 46.067701],
+                {}
+            ).addTo(feature_group_ebfc02f3b1254bce8199db544d557c56);
+        
+    
+            var icon_790082c062f54df99f0b4748d425a870 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_dec1151f8e90450e9a2beede66dce591.setIcon(icon_790082c062f54df99f0b4748d425a870);
+        
+    
+        var popup_8c42381323b540c4803220a70c0e8ce7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4afa22cc138049c3a7fbbe1d0fd1c6bc = $(`<div id="html_4afa22cc138049c3a7fbbe1d0fd1c6bc" style="width: 100.0%; height: 100.0%;">г.Саратов, ул.Усть-Курдюмская, д.5 Время работы:  09:00-20:00</div>`)[0];
+            popup_8c42381323b540c4803220a70c0e8ce7.setContent(html_4afa22cc138049c3a7fbbe1d0fd1c6bc);
+        
+
+        marker_dec1151f8e90450e9a2beede66dce591.bindPopup(popup_8c42381323b540c4803220a70c0e8ce7)
+        ;
+
+        
+    
+    
+            var marker_fdfff8b1c1904af49432160c0b7e7cff = L.marker(
+                [51.547029, 46.01991],
+                {}
+            ).addTo(feature_group_ebfc02f3b1254bce8199db544d557c56);
+        
+    
+            var icon_adf784ecea2b42babaabefbbe0505326 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fdfff8b1c1904af49432160c0b7e7cff.setIcon(icon_adf784ecea2b42babaabefbbe0505326);
+        
+    
+        var popup_792aaa601b8b4407bc931b0af7e3b5c6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dcfb62298969408faf90e6f75dc059c4 = $(`<div id="html_dcfb62298969408faf90e6f75dc059c4" style="width: 100.0%; height: 100.0%;">г.Саратов, ул.Пугачева Е.И., д.198 Время работы:  08:00-20:00</div>`)[0];
+            popup_792aaa601b8b4407bc931b0af7e3b5c6.setContent(html_dcfb62298969408faf90e6f75dc059c4);
+        
+
+        marker_fdfff8b1c1904af49432160c0b7e7cff.bindPopup(popup_792aaa601b8b4407bc931b0af7e3b5c6)
+        ;
+
+        
+    
+    
+            var marker_e55146231e9a47389539b4331ea38863 = L.marker(
+                [51.524199, 45.979289],
+                {}
+            ).addTo(feature_group_ebfc02f3b1254bce8199db544d557c56);
+        
+    
+            var icon_b14626c1b6484706af84031a5ce73e36 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e55146231e9a47389539b4331ea38863.setIcon(icon_b14626c1b6484706af84031a5ce73e36);
+        
+    
+        var popup_962d7c03925a4d1fa39c078d7597db13 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eac92a73f7474396bfcaeda8b19e1870 = $(`<div id="html_eac92a73f7474396bfcaeda8b19e1870" style="width: 100.0%; height: 100.0%;">г.Саратов, ул.Политехническая, д.65/1 Время работы:  09:00-21:00</div>`)[0];
+            popup_962d7c03925a4d1fa39c078d7597db13.setContent(html_eac92a73f7474396bfcaeda8b19e1870);
+        
+
+        marker_e55146231e9a47389539b4331ea38863.bindPopup(popup_962d7c03925a4d1fa39c078d7597db13)
+        ;
+
+        
+    
+    
+            var marker_8326438838444275a395e2c3544ce793 = L.marker(
+                [51.49828, 45.94261],
+                {}
+            ).addTo(feature_group_ebfc02f3b1254bce8199db544d557c56);
+        
+    
+            var icon_05cbd5e3ffd0411687ea4d9fa477bb9a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8326438838444275a395e2c3544ce793.setIcon(icon_05cbd5e3ffd0411687ea4d9fa477bb9a);
+        
+    
+        var popup_6eb33a39e9fb4a479ef84d410f6dafdc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9372cc14782148bc9737e5c83d4d84f0 = $(`<div id="html_9372cc14782148bc9737e5c83d4d84f0" style="width: 100.0%; height: 100.0%;">г.Саратов, ул.Пензенская, д.35 Время работы:  08:00-20:00</div>`)[0];
+            popup_6eb33a39e9fb4a479ef84d410f6dafdc.setContent(html_9372cc14782148bc9737e5c83d4d84f0);
+        
+
+        marker_8326438838444275a395e2c3544ce793.bindPopup(popup_6eb33a39e9fb4a479ef84d410f6dafdc)
+        ;
+
+        
+    
+    
+            var marker_0b655f496eb344aca58d39a3747dff0f = L.marker(
+                [51.506275, 45.931741],
+                {}
+            ).addTo(feature_group_ebfc02f3b1254bce8199db544d557c56);
+        
+    
+            var icon_d0daaedf575c489aaf1127c5b1f582fa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0b655f496eb344aca58d39a3747dff0f.setIcon(icon_d0daaedf575c489aaf1127c5b1f582fa);
+        
+    
+        var popup_3b57adc7021e4849832d57c0dad0e1c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_547f4be0429d4ba7bcf015cda157996c = $(`<div id="html_547f4be0429d4ba7bcf015cda157996c" style="width: 100.0%; height: 100.0%;">г.Саратов, ул.Огородная, д.162 Время работы:  09:00-21:00</div>`)[0];
+            popup_3b57adc7021e4849832d57c0dad0e1c0.setContent(html_547f4be0429d4ba7bcf015cda157996c);
+        
+
+        marker_0b655f496eb344aca58d39a3747dff0f.bindPopup(popup_3b57adc7021e4849832d57c0dad0e1c0)
+        ;
+
+        
+    
+    
+            var marker_1b6e50063032410a9ac497cb4c540951 = L.marker(
+                [51.535938, 46.024654],
+                {}
+            ).addTo(feature_group_ebfc02f3b1254bce8199db544d557c56);
+        
+    
+            var icon_a6f716421f9641d586b70cb3dde30399 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1b6e50063032410a9ac497cb4c540951.setIcon(icon_a6f716421f9641d586b70cb3dde30399);
+        
+    
+        var popup_6b166ec4b79a4bd4b96e35eac370fecb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e65b6250b93e4e5eaf14849cb0ffac26 = $(`<div id="html_e65b6250b93e4e5eaf14849cb0ffac26" style="width: 100.0%; height: 100.0%;">г.Саратов, ул.Московская, д.105 Время работы:  08:00-21:00</div>`)[0];
+            popup_6b166ec4b79a4bd4b96e35eac370fecb.setContent(html_e65b6250b93e4e5eaf14849cb0ffac26);
+        
+
+        marker_1b6e50063032410a9ac497cb4c540951.bindPopup(popup_6b166ec4b79a4bd4b96e35eac370fecb)
+        ;
+
+        
+    
+    
+            var marker_c5697e1037d64c7eb5caf5a04f140c97 = L.marker(
+                [51.602494, 46.003031],
+                {}
+            ).addTo(feature_group_ebfc02f3b1254bce8199db544d557c56);
+        
+    
+            var icon_508e26a8734f4e5f862443b6c8049177 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c5697e1037d64c7eb5caf5a04f140c97.setIcon(icon_508e26a8734f4e5f862443b6c8049177);
+        
+    
+        var popup_7b3cd49cc5f8444790a24f39223357db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3465d07a5a424300816974f2826970a6 = $(`<div id="html_3465d07a5a424300816974f2826970a6" style="width: 100.0%; height: 100.0%;">г.Саратов, ул.имени Чехова А.П., д.2 Время работы:  08:30-19:45</div>`)[0];
+            popup_7b3cd49cc5f8444790a24f39223357db.setContent(html_3465d07a5a424300816974f2826970a6);
+        
+
+        marker_c5697e1037d64c7eb5caf5a04f140c97.bindPopup(popup_7b3cd49cc5f8444790a24f39223357db)
+        ;
+
+        
+    
+    
+            var marker_c0c07ca7992a46b3a25474f387e68ead = L.marker(
+                [51.595753, 45.974644],
+                {}
+            ).addTo(feature_group_ebfc02f3b1254bce8199db544d557c56);
+        
+    
+            var icon_317d2eb2e0f54ff4b95aae56f45b5b52 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c0c07ca7992a46b3a25474f387e68ead.setIcon(icon_317d2eb2e0f54ff4b95aae56f45b5b52);
+        
+    
+        var popup_c0cbb5c0b9df4ffab8b167d48727c2f5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d6aca60494f647a996211f9f95b3a1d6 = $(`<div id="html_d6aca60494f647a996211f9f95b3a1d6" style="width: 100.0%; height: 100.0%;">г.Саратов, ул.имени Лебедева-Кумача В.И., д.70 09:00-21:00 Время работы:  nan</div>`)[0];
+            popup_c0cbb5c0b9df4ffab8b167d48727c2f5.setContent(html_d6aca60494f647a996211f9f95b3a1d6);
+        
+
+        marker_c0c07ca7992a46b3a25474f387e68ead.bindPopup(popup_c0cbb5c0b9df4ffab8b167d48727c2f5)
+        ;
+
+        
+    
+    
+            var marker_945480b893cc4af081021c41b3bbae02 = L.marker(
+                [51.610035, 46.000893],
+                {}
+            ).addTo(feature_group_ebfc02f3b1254bce8199db544d557c56);
+        
+    
+            var icon_9401dbfba4734ee4943f0fc184551101 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_945480b893cc4af081021c41b3bbae02.setIcon(icon_9401dbfba4734ee4943f0fc184551101);
+        
+    
+        var popup_bad0308a67d34674b96bce1b2e5e4113 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_234132969527483584e48bc09384f2f9 = $(`<div id="html_234132969527483584e48bc09384f2f9" style="width: 100.0%; height: 100.0%;">г.Саратов, ул.Тархова, д.29А/1 Время работы:  08:00-20:00</div>`)[0];
+            popup_bad0308a67d34674b96bce1b2e5e4113.setContent(html_234132969527483584e48bc09384f2f9);
+        
+
+        marker_945480b893cc4af081021c41b3bbae02.bindPopup(popup_bad0308a67d34674b96bce1b2e5e4113)
+        ;
+
+        
+    
+    
+            var marker_bde05c67e2194e0e853a61b080294b2a = L.marker(
+                [51.608289, 46.01355],
+                {}
+            ).addTo(feature_group_ebfc02f3b1254bce8199db544d557c56);
+        
+    
+            var icon_20e014c821aa4bb19971ed892b025530 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bde05c67e2194e0e853a61b080294b2a.setIcon(icon_20e014c821aa4bb19971ed892b025530);
+        
+    
+        var popup_e8e9e80227314b039029960ce88c29d7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1f1bb5de2b4e42e4ad8b8f121df2772f = $(`<div id="html_1f1bb5de2b4e42e4ad8b8f121df2772f" style="width: 100.0%; height: 100.0%;">г.Саратов, ул.им.Тархова С.Ф., д.46В Время работы:  09:00-21:00</div>`)[0];
+            popup_e8e9e80227314b039029960ce88c29d7.setContent(html_1f1bb5de2b4e42e4ad8b8f121df2772f);
+        
+
+        marker_bde05c67e2194e0e853a61b080294b2a.bindPopup(popup_e8e9e80227314b039029960ce88c29d7)
+        ;
+
+        
+    
+    
+            var marker_91edc87853714527b9f3ad180ac3d443 = L.marker(
+                [51.512374, 45.991649],
+                {}
+            ).addTo(feature_group_ebfc02f3b1254bce8199db544d557c56);
+        
+    
+            var icon_8c51c769445a44ccbdf7400ca504d57c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_91edc87853714527b9f3ad180ac3d443.setIcon(icon_8c51c769445a44ccbdf7400ca504d57c);
+        
+    
+        var popup_cb1f0c2c649b425f9c56acae986ebd48 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4261ce233d9747f489037f2fdbb5be20 = $(`<div id="html_4261ce233d9747f489037f2fdbb5be20" style="width: 100.0%; height: 100.0%;">г.Саратов, ул.им. Чернышевского Н.Г., д.57А Время работы:  09:00-21:00</div>`)[0];
+            popup_cb1f0c2c649b425f9c56acae986ebd48.setContent(html_4261ce233d9747f489037f2fdbb5be20);
+        
+
+        marker_91edc87853714527b9f3ad180ac3d443.bindPopup(popup_cb1f0c2c649b425f9c56acae986ebd48)
+        ;
+
+        
+    
+    
+            var marker_607f0a613e764962bdc589d44c9a20a8 = L.marker(
+                [51.527948, 46.048342],
+                {}
+            ).addTo(feature_group_ebfc02f3b1254bce8199db544d557c56);
+        
+    
+            var icon_c7768f436d234092880c7c23136cbdf2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_607f0a613e764962bdc589d44c9a20a8.setIcon(icon_c7768f436d234092880c7c23136cbdf2);
+        
+    
+        var popup_685b5c0311064ab6a7077dfc5499dc2a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0946b205b7584144b0563adbe7235a8e = $(`<div id="html_0946b205b7584144b0563adbe7235a8e" style="width: 100.0%; height: 100.0%;">г.Саратов, ул.им. Чернышевского Н.Г., д.203 Время работы:  nan</div>`)[0];
+            popup_685b5c0311064ab6a7077dfc5499dc2a.setContent(html_0946b205b7584144b0563adbe7235a8e);
+        
+
+        marker_607f0a613e764962bdc589d44c9a20a8.bindPopup(popup_685b5c0311064ab6a7077dfc5499dc2a)
+        ;
+
+        
+    
+    
+            var marker_3151ac765e9d42e0bdaa773fe1dcb6b9 = L.marker(
+                [51.529287, 46.019362],
+                {}
+            ).addTo(feature_group_ebfc02f3b1254bce8199db544d557c56);
+        
+    
+            var icon_1eea0a71d8a1423ea9a55ea2629aa1a7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3151ac765e9d42e0bdaa773fe1dcb6b9.setIcon(icon_1eea0a71d8a1423ea9a55ea2629aa1a7);
+        
+    
+        var popup_61e1dac4356d4b52a726d65f6143aaf1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0ca56f4926ef4dc3b3f68dc232f0a328 = $(`<div id="html_0ca56f4926ef4dc3b3f68dc232f0a328" style="width: 100.0%; height: 100.0%;">г.Саратов, ул.им. Чапаева В.И., д.48/47 Время работы:  10:00-20:00</div>`)[0];
+            popup_61e1dac4356d4b52a726d65f6143aaf1.setContent(html_0ca56f4926ef4dc3b3f68dc232f0a328);
+        
+
+        marker_3151ac765e9d42e0bdaa773fe1dcb6b9.bindPopup(popup_61e1dac4356d4b52a726d65f6143aaf1)
+        ;
+
+        
+    
+    
+            var marker_edcabf0a6eb64c9e820eace12f63fce5 = L.marker(
+                [51.603222, 46.020414],
+                {}
+            ).addTo(feature_group_ebfc02f3b1254bce8199db544d557c56);
+        
+    
+            var icon_4853db12854943fc9394c825f89f7cd3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_edcabf0a6eb64c9e820eace12f63fce5.setIcon(icon_4853db12854943fc9394c825f89f7cd3);
+        
+    
+        var popup_22e56bcb915049c7a8b4a842f1752780 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d81c6ce5f314578963c477164359055 = $(`<div id="html_0d81c6ce5f314578963c477164359055" style="width: 100.0%; height: 100.0%;">г.Саратов, ул С.П.Лисина, д.11 Время работы:  09:00-21:00</div>`)[0];
+            popup_22e56bcb915049c7a8b4a842f1752780.setContent(html_0d81c6ce5f314578963c477164359055);
+        
+
+        marker_edcabf0a6eb64c9e820eace12f63fce5.bindPopup(popup_22e56bcb915049c7a8b4a842f1752780)
+        ;
+
+        
+    
+    
+            var marker_c8c313ded3dd4d59bbd2c736822139fb = L.marker(
+                [51.535646, 46.033502],
+                {}
+            ).addTo(feature_group_ebfc02f3b1254bce8199db544d557c56);
+        
+    
+            var icon_f6f8931f3f6f47a989da1ce4be1928f1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c8c313ded3dd4d59bbd2c736822139fb.setIcon(icon_f6f8931f3f6f47a989da1ce4be1928f1);
+        
+    
+        var popup_5cdec982d45d444183be0da8cd0d2b77 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5d1f48757ca64b6eb927ee58517202c7 = $(`<div id="html_5d1f48757ca64b6eb927ee58517202c7" style="width: 100.0%; height: 100.0%;">г.Саратов, ул.им. Кутякова И.С., 7, Литер А Время работы:  09:00-21:00</div>`)[0];
+            popup_5cdec982d45d444183be0da8cd0d2b77.setContent(html_5d1f48757ca64b6eb927ee58517202c7);
+        
+
+        marker_c8c313ded3dd4d59bbd2c736822139fb.bindPopup(popup_5cdec982d45d444183be0da8cd0d2b77)
+        ;
+
+        
+    
+    
+            var marker_6cf52d80e38945eea4b4b56c5f910cc7 = L.marker(
+                [51.535221, 46.009912],
+                {}
+            ).addTo(feature_group_ebfc02f3b1254bce8199db544d557c56);
+        
+    
+            var icon_0a893cb3da9a4586ab91c807d1a7940b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6cf52d80e38945eea4b4b56c5f910cc7.setIcon(icon_0a893cb3da9a4586ab91c807d1a7940b);
+        
+    
+        var popup_3131db6cf7ee4ce680dc23c7fedf6058 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d0b11dfe6adb4e0b9b922a814f826436 = $(`<div id="html_d0b11dfe6adb4e0b9b922a814f826436" style="width: 100.0%; height: 100.0%;">г.Саратов, ул.Им. Вавилова Н.И., д.38/114, пом I Время работы:  09:00-21:00</div>`)[0];
+            popup_3131db6cf7ee4ce680dc23c7fedf6058.setContent(html_d0b11dfe6adb4e0b9b922a814f826436);
+        
+
+        marker_6cf52d80e38945eea4b4b56c5f910cc7.bindPopup(popup_3131db6cf7ee4ce680dc23c7fedf6058)
+        ;
+
+        
+    
+    
+            var marker_7771d7b194b743a89cb58b221ea8d564 = L.marker(
+                [51.471662, 45.91567],
+                {}
+            ).addTo(feature_group_ebfc02f3b1254bce8199db544d557c56);
+        
+    
+            var icon_4d9fce4bd9814eaf9f7a4277fa49207f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7771d7b194b743a89cb58b221ea8d564.setIcon(icon_4d9fce4bd9814eaf9f7a4277fa49207f);
+        
+    
+        var popup_c7d9298a127946fe9a70d9eb14f2adfe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_105e33b87d6440e6aaf910f0426b8049 = $(`<div id="html_105e33b87d6440e6aaf910f0426b8049" style="width: 100.0%; height: 100.0%;">г.Саратов, ул.Им. Азина В.М., д.39 Время работы:  09:00-21:00</div>`)[0];
+            popup_c7d9298a127946fe9a70d9eb14f2adfe.setContent(html_105e33b87d6440e6aaf910f0426b8049);
+        
+
+        marker_7771d7b194b743a89cb58b221ea8d564.bindPopup(popup_c7d9298a127946fe9a70d9eb14f2adfe)
+        ;
+
+        
+    
+    
+            var marker_28a60526df744506ae2763e3e3000148 = L.marker(
+                [51.510356, 45.974869],
+                {}
+            ).addTo(feature_group_ebfc02f3b1254bce8199db544d557c56);
+        
+    
+            var icon_b16ee19d9c854fa191b7f52a9e81c8a6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_28a60526df744506ae2763e3e3000148.setIcon(icon_b16ee19d9c854fa191b7f52a9e81c8a6);
+        
+    
+        var popup_053521f118a34ba09b468a0c56541111 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dc47978ccd354e77ad88921e279e4630 = $(`<div id="html_dc47978ccd354e77ad88921e279e4630" style="width: 100.0%; height: 100.0%;">г.Саратов, ул.Верхняя, д.17 Время работы:  10:00-20:00</div>`)[0];
+            popup_053521f118a34ba09b468a0c56541111.setContent(html_dc47978ccd354e77ad88921e279e4630);
+        
+
+        marker_28a60526df744506ae2763e3e3000148.bindPopup(popup_053521f118a34ba09b468a0c56541111)
+        ;
+
+        
+    
+    
+            var marker_f2f79fc0c26b43749e53e6297ff1b911 = L.marker(
+                [51.541388, 45.990077],
+                {}
+            ).addTo(feature_group_ebfc02f3b1254bce8199db544d557c56);
+        
+    
+            var icon_8c26a8c949424582af82bcbab74ea667 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f2f79fc0c26b43749e53e6297ff1b911.setIcon(icon_8c26a8c949424582af82bcbab74ea667);
+        
+    
+        var popup_93acc98b58074f42824050fa910e99f5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6ec712b1d5284f9a9f881e32ee590785 = $(`<div id="html_6ec712b1d5284f9a9f881e32ee590785" style="width: 100.0%; height: 100.0%;">г.Саратов, ул.Большая Садовая, д.153/163 Время работы:  09:00-21:00</div>`)[0];
+            popup_93acc98b58074f42824050fa910e99f5.setContent(html_6ec712b1d5284f9a9f881e32ee590785);
+        
+
+        marker_f2f79fc0c26b43749e53e6297ff1b911.bindPopup(popup_93acc98b58074f42824050fa910e99f5)
+        ;
+
+        
+    
+    
+            var marker_2ee71099b9a9462ebace22ea556bc98e = L.marker(
+                [51.526082, 46.012931],
+                {}
+            ).addTo(feature_group_ebfc02f3b1254bce8199db544d557c56);
+        
+    
+            var icon_4ca46b12943e4424b2b382dd6d7045ef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2ee71099b9a9462ebace22ea556bc98e.setIcon(icon_4ca46b12943e4424b2b382dd6d7045ef);
+        
+    
+        var popup_32d022147a2c462cabbdd22906da77a0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3c1059f181d54371827235b29e41ada9 = $(`<div id="html_3c1059f181d54371827235b29e41ada9" style="width: 100.0%; height: 100.0%;">г.Саратов, ул.Бахметьевская, д.49 Время работы:  08:00-20:00</div>`)[0];
+            popup_32d022147a2c462cabbdd22906da77a0.setContent(html_3c1059f181d54371827235b29e41ada9);
+        
+
+        marker_2ee71099b9a9462ebace22ea556bc98e.bindPopup(popup_32d022147a2c462cabbdd22906da77a0)
+        ;
+
+        
+    
+    
+            var marker_2b80aa0dd0fb451d9c241875c7d66691 = L.marker(
+                [51.542699, 46.01267],
+                {}
+            ).addTo(feature_group_ebfc02f3b1254bce8199db544d557c56);
+        
+    
+            var icon_3d58aa9462bf47b5afbc16600db2a7e5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2b80aa0dd0fb451d9c241875c7d66691.setIcon(icon_3d58aa9462bf47b5afbc16600db2a7e5);
+        
+    
+        var popup_e94268aab5fe4af99744f659f333be20 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fbc5ead6df1c4bd0807d89e1360de371 = $(`<div id="html_fbc5ead6df1c4bd0807d89e1360de371" style="width: 100.0%; height: 100.0%;">г.Саратов, ул.Астраханская, д.87 Время работы:  09:00-20:00</div>`)[0];
+            popup_e94268aab5fe4af99744f659f333be20.setContent(html_fbc5ead6df1c4bd0807d89e1360de371);
+        
+
+        marker_2b80aa0dd0fb451d9c241875c7d66691.bindPopup(popup_e94268aab5fe4af99744f659f333be20)
+        ;
+
+        
+    
+    
+            var marker_463554bdb7e64feaa1e3f44fceff7252 = L.marker(
+                [51.532049, 46.004783],
+                {}
+            ).addTo(feature_group_ebfc02f3b1254bce8199db544d557c56);
+        
+    
+            var icon_bd96c3df6a8a4ce8ac69f901522d6b93 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_463554bdb7e64feaa1e3f44fceff7252.setIcon(icon_bd96c3df6a8a4ce8ac69f901522d6b93);
+        
+    
+        var popup_39b5bef1d06d4b80b261f99a9f725b83 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d7676abf73c94a68bdb867b40c69dd3a = $(`<div id="html_d7676abf73c94a68bdb867b40c69dd3a" style="width: 100.0%; height: 100.0%;">г.Саратов, ул.Астраханская, д.47 Время работы:  09:00-21:00</div>`)[0];
+            popup_39b5bef1d06d4b80b261f99a9f725b83.setContent(html_d7676abf73c94a68bdb867b40c69dd3a);
+        
+
+        marker_463554bdb7e64feaa1e3f44fceff7252.bindPopup(popup_39b5bef1d06d4b80b261f99a9f725b83)
+        ;
+
+        
+    
+    
+            var marker_05b0d53194e14fb08a0b63e1d8342128 = L.marker(
+                [51.560743, 45.990958],
+                {}
+            ).addTo(feature_group_ebfc02f3b1254bce8199db544d557c56);
+        
+    
+            var icon_42601aece16443e7b37a42bf471182b1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_05b0d53194e14fb08a0b63e1d8342128.setIcon(icon_42601aece16443e7b37a42bf471182b1);
+        
+    
+        var popup_8d817c8fa08944acac9d5c0cb12de798 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_455b031661d5459c841c37b17e62e000 = $(`<div id="html_455b031661d5459c841c37b17e62e000" style="width: 100.0%; height: 100.0%;">г.Саратов, ул.Алексеевская, д.5 Время работы:  09:00-21:00</div>`)[0];
+            popup_8d817c8fa08944acac9d5c0cb12de798.setContent(html_455b031661d5459c841c37b17e62e000);
+        
+
+        marker_05b0d53194e14fb08a0b63e1d8342128.bindPopup(popup_8d817c8fa08944acac9d5c0cb12de798)
+        ;
+
+        
+    
+    
+            var marker_d2ce44cbbd234317a93991ee20e54a45 = L.marker(
+                [51.505636, 45.951378],
+                {}
+            ).addTo(feature_group_ebfc02f3b1254bce8199db544d557c56);
+        
+    
+            var icon_3af172bec09f44769ca3c25c35740b02 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d2ce44cbbd234317a93991ee20e54a45.setIcon(icon_3af172bec09f44769ca3c25c35740b02);
+        
+    
+        var popup_f805d102b3774192b7a8cf545938cbc4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_35f3dc7c330642fc880147a3941f8fda = $(`<div id="html_35f3dc7c330642fc880147a3941f8fda" style="width: 100.0%; height: 100.0%;">г.Саратов, пр-т Энтузиастов, д.18А Время работы:  10:00-19:00</div>`)[0];
+            popup_f805d102b3774192b7a8cf545938cbc4.setContent(html_35f3dc7c330642fc880147a3941f8fda);
+        
+
+        marker_d2ce44cbbd234317a93991ee20e54a45.bindPopup(popup_f805d102b3774192b7a8cf545938cbc4)
+        ;
+
+        
+    
+    
+            var marker_0f52e0e4cdac4e9cada585673675bbbd = L.marker(
+                [51.614028, 45.972461],
+                {}
+            ).addTo(feature_group_ebfc02f3b1254bce8199db544d557c56);
+        
+    
+            var icon_8e7db2136eb6418da2d357adf143b3ed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0f52e0e4cdac4e9cada585673675bbbd.setIcon(icon_8e7db2136eb6418da2d357adf143b3ed);
+        
+    
+        var popup_66fdc661c62a41cba7e22ca3a41b56e2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c8f066ef718d453da59b9fceac294b9f = $(`<div id="html_c8f066ef718d453da59b9fceac294b9f" style="width: 100.0%; height: 100.0%;">г.Саратов, пр-т Строителей, д.84А Время работы:  09:00-21:00</div>`)[0];
+            popup_66fdc661c62a41cba7e22ca3a41b56e2.setContent(html_c8f066ef718d453da59b9fceac294b9f);
+        
+
+        marker_0f52e0e4cdac4e9cada585673675bbbd.bindPopup(popup_66fdc661c62a41cba7e22ca3a41b56e2)
+        ;
+
+        
+    
+    
+            var marker_143df08d16cd4dcba12499d31b11e049 = L.marker(
+                [51.586537, 45.966398],
+                {}
+            ).addTo(feature_group_ebfc02f3b1254bce8199db544d557c56);
+        
+    
+            var icon_f864b7eb41fd4ff6966145ed3cd80a98 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_143df08d16cd4dcba12499d31b11e049.setIcon(icon_f864b7eb41fd4ff6966145ed3cd80a98);
+        
+    
+        var popup_c3a41776e516499985677435836f96aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_51a7a545be944ad38bc0f98605f5f2ba = $(`<div id="html_51a7a545be944ad38bc0f98605f5f2ba" style="width: 100.0%; height: 100.0%;">г.Саратов, пр-т Строителей, д.1 Время работы:  09:00-21:00</div>`)[0];
+            popup_c3a41776e516499985677435836f96aa.setContent(html_51a7a545be944ad38bc0f98605f5f2ba);
+        
+
+        marker_143df08d16cd4dcba12499d31b11e049.bindPopup(popup_c3a41776e516499985677435836f96aa)
+        ;
+
+        
+    
+    
+            var marker_9453e3f6cd454082bffba2d4a7ba9caf = L.marker(
+                [51.596956, 45.968769],
+                {}
+            ).addTo(feature_group_ebfc02f3b1254bce8199db544d557c56);
+        
+    
+            var icon_4665f7f239ca44e5ab956f1624932112 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9453e3f6cd454082bffba2d4a7ba9caf.setIcon(icon_4665f7f239ca44e5ab956f1624932112);
+        
+    
+        var popup_4db31b3965534c97a17bebe3641e3ac0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d2339b375e4d4a7f9895bd196b660e49 = $(`<div id="html_d2339b375e4d4a7f9895bd196b660e49" style="width: 100.0%; height: 100.0%;">г.Саратов, пр-т Строителeй, д.30 Время работы:  09:00-20:00</div>`)[0];
+            popup_4db31b3965534c97a17bebe3641e3ac0.setContent(html_d2339b375e4d4a7f9895bd196b660e49);
+        
+
+        marker_9453e3f6cd454082bffba2d4a7ba9caf.bindPopup(popup_4db31b3965534c97a17bebe3641e3ac0)
+        ;
+
+        
+    
+    
+            var marker_9d0951cc0b87494cbf8d3bbd85ac787b = L.marker(
+                [51.575417, 45.975076],
+                {}
+            ).addTo(feature_group_ebfc02f3b1254bce8199db544d557c56);
+        
+    
+            var icon_80e140a776af48269ed0b225eb726b49 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9d0951cc0b87494cbf8d3bbd85ac787b.setIcon(icon_80e140a776af48269ed0b225eb726b49);
+        
+    
+        var popup_866b603f418b49d2846c10d8b858988e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4866693043e44c49b865ba8c4e52fd8c = $(`<div id="html_4866693043e44c49b865ba8c4e52fd8c" style="width: 100.0%; height: 100.0%;">г.Саратов, пр-т имени 50 Лет Октября, д.89В Время работы:  09:00-21:00</div>`)[0];
+            popup_866b603f418b49d2846c10d8b858988e.setContent(html_4866693043e44c49b865ba8c4e52fd8c);
+        
+
+        marker_9d0951cc0b87494cbf8d3bbd85ac787b.bindPopup(popup_866b603f418b49d2846c10d8b858988e)
+        ;
+
+        
+    
+    
+            var marker_338cd35f01c341c9822e7d3372674b8c = L.marker(
+                [51.531343, 46.026935],
+                {}
+            ).addTo(feature_group_ebfc02f3b1254bce8199db544d557c56);
+        
+    
+            var icon_eca56189ac604fbbb7031f6d2f61f767 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_338cd35f01c341c9822e7d3372674b8c.setIcon(icon_eca56189ac604fbbb7031f6d2f61f767);
+        
+    
+        var popup_ec65cd5400fc4ff99c96ca4eeb5fce0b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_99fa296fcffe40649880748c69a28c41 = $(`<div id="html_99fa296fcffe40649880748c69a28c41" style="width: 100.0%; height: 100.0%;">г.Саратов, пр-т Им. Кирова С.М., д.27 Время работы:  10:00-20:00</div>`)[0];
+            popup_ec65cd5400fc4ff99c96ca4eeb5fce0b.setContent(html_99fa296fcffe40649880748c69a28c41);
+        
+
+        marker_338cd35f01c341c9822e7d3372674b8c.bindPopup(popup_ec65cd5400fc4ff99c96ca4eeb5fce0b)
+        ;
+
+        
+    
+    
+            var marker_8ab8c9e292954e238ee44cc5456aa468 = L.marker(
+                [51.501224, 45.944012],
+                {}
+            ).addTo(feature_group_ebfc02f3b1254bce8199db544d557c56);
+        
+    
+            var icon_fc6c3e4d701547ee995044ef9f05b05b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8ab8c9e292954e238ee44cc5456aa468.setIcon(icon_fc6c3e4d701547ee995044ef9f05b05b);
+        
+    
+        var popup_26d9e8bfd5744bba9ec73523d81e32dc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aaf55c0aa71c47e4bc8257e646023bed = $(`<div id="html_aaf55c0aa71c47e4bc8257e646023bed" style="width: 100.0%; height: 100.0%;">г.Саратов, пл.Им.Орджоникидзе Г.К., д.1 Время работы:  09:00-21:00</div>`)[0];
+            popup_26d9e8bfd5744bba9ec73523d81e32dc.setContent(html_aaf55c0aa71c47e4bc8257e646023bed);
+        
+
+        marker_8ab8c9e292954e238ee44cc5456aa468.bindPopup(popup_26d9e8bfd5744bba9ec73523d81e32dc)
+        ;
+
+        
+    
+    
+            var marker_1e525a569150472d8755b89c929a7c8f = L.marker(
+                [51.621331, 45.972623],
+                {}
+            ).addTo(feature_group_ebfc02f3b1254bce8199db544d557c56);
+        
+    
+            var icon_1a5a975222c342dfa6ae9336e92b7e56 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1e525a569150472d8755b89c929a7c8f.setIcon(icon_1a5a975222c342dfa6ae9336e92b7e56);
+        
+    
+        var popup_91aad4259de54db0a0a2bcbf7ab88342 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cf0180eb3177436cba4bcea265b5ffa4 = $(`<div id="html_cf0180eb3177436cba4bcea265b5ffa4" style="width: 100.0%; height: 100.0%;">г.Саратов, Вольский тракт, д.2 Время работы:  10:00-20:00</div>`)[0];
+            popup_91aad4259de54db0a0a2bcbf7ab88342.setContent(html_cf0180eb3177436cba4bcea265b5ffa4);
+        
+
+        marker_1e525a569150472d8755b89c929a7c8f.bindPopup(popup_91aad4259de54db0a0a2bcbf7ab88342)
+        ;
+
+        
+    
+    
+            var layer_control_265477dbd0a54d879f8f3449f97dbfbe = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_569886b444f44aabafa80b3cef8a866e,
+                },
+                overlays :  {
+                    "\u041d\u0430\u0448\u0438 \u043b\u043e\u043c\u0431\u0430\u0440\u0434\u044b" : feature_group_1fd6d78609c64263a8e44ba95caf611b,
+                    "\u0424\u0438\u043a\u0441 \u041f\u0440\u0430\u0439\u0441" : feature_group_ebfc02f3b1254bce8199db544d557c56,
+                },
+            };
+            L.control.layers(
+                layer_control_265477dbd0a54d879f8f3449f97dbfbe.base_layers,
+                layer_control_265477dbd0a54d879f8f3449f97dbfbe.overlays,
+                {"autoZIndex": true, "collapsed": false, "position": "topright"}
+            ).addTo(map_d3e3b219ab3e450595086dd23e7f6fe0);
+        
+</script>
